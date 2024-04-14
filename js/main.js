@@ -111,7 +111,7 @@ $(document).ready(function () {
             lazyLoad: true,
             smartSpeed: 2500,
             autoplay: true,
-            autoplayTimeout: 5000000,
+            autoplayTimeout: 5000,
             responsive: {
                 0: {
                     items: 1
