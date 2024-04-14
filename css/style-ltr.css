@@ -1,0 +1,117 @@
+ body{
+     direction: ltr;
+     text-align: left;
+ }
+
+ .infoOwl-index{
+    flex-direction: row-reverse;
+ }
+
+ .infoOwl-index .img_ .img_2 {
+    left: unset;
+    right: 25px;
+}
+.infoOwl-index .info_text{
+    direction: ltr;
+}
+
+.form-control {
+    text-align: left !important;
+}
+
+.form-content .form-group > label:first-of-type {
+    right: unset;
+    left: 10px;
+}
+
+
+.me-auto {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+}
+
+
+.imgPaner-Page::before {
+    right: unset;
+    left: 0;
+}
+
+.imgPaner-Page::after {
+    left: unset;
+    right: 0;
+}
+
+.sahm_{
+    transform: scaleX(-1);
+}
+
+.imgLapSystem {
+    padding: 40px 40px 0 30px;
+}
+
+.imgLapSystem::after , .imgLapSystem::before{
+    left: 10px;
+    right: unset;
+}
+
+.imgLapSystem > span{
+    left: unset;
+    right: 0;
+}
+
+.imgAppSystem::after{
+    left: unset;
+    right: 0;
+}
+
+.imgAppSystem::before {
+    right: unset;
+    left: 0;
+}
+
+
+.accordion-infoWho .accordion-button::before{
+    left: 0;
+    right: unset;
+}
+
+
+
+.back-to-top {
+    left: unset;
+    right: 20px
+}
+
+
+.icon_whatsapp {
+    right: unset;
+    left: 30px
+}
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 575.98px) {
+
+
+ }
+
+ /*Small devices (landscape phones, less than 768px)*/
+ @media (max-width: 767.98px) {
+
+}
+
+ /*Medium devices (tablets, less than 992px)*/
+
+ @media (max-width: 991.98px) {
+
+     .nav_bar {
+         right: unset;
+         left: 0;
+         top: 0;
+         transform: translateX(-100%);
+     }
+
+
+ }
+
+ /*Large devices (desktops, less than 1200px)*/
+ @media (max-width: 1199.98px) {}
