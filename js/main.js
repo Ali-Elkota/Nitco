@@ -110,7 +110,7 @@ $(document).ready(function () {
             rtl: true,
             lazyLoad: true,
             smartSpeed: 2500,
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 5000,
             responsive: {
                 0: {
