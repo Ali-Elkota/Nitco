@@ -644,6 +644,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 6px;
     border: 1px solid #FFFFFF;
     border-radius: 6px;
@@ -983,8 +984,8 @@
 
 
 .partners-item {
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     background: #FFF;
     display: flex;
     justify-content: center;
@@ -1375,7 +1376,7 @@ textarea.form-control {
  .icon_whatsapp {
     position: fixed;
     z-index: 9;
-    bottom: 40px;
+    bottom: 30px;
     right: 30px;
     background: #25D366;
     color: #FFF !important;
@@ -1421,7 +1422,7 @@ textarea.form-control {
      height: 40px;
      border-radius: 50px;
      left: 20px;
-     bottom: 50px;
+     bottom: 37px;
      background: var(--main);
      color: #fff !important;
      text-align: center;
@@ -1539,20 +1540,39 @@ textarea.form-control {
 
      .infoOwl-index {
         padding-inline-start: 0;
+        flex-direction: column-reverse;
+        gap: 6px;
+
      }
 
      .infoOwl-index .img_{
         margin: auto;
-        filter: opacity(0.5);
+        perspective: none;
+        width: 100%;
+        height: auto;
+     }
+
+     .infoOwl-index .img_ .img_1{display: none;}
+
+     .infoOwl-index .img_ > img{
+        position: static;
+        animation: none !important;
+        object-fit: contain !important;
      }
 
      .infoOwl-index .info_text{
-        position: absolute;
-        z-index: 2;
         flex-basis: auto;
-        top: 50%;
         width: 100%;
-        transform: translateY(-50%);
+     }
+     .infoOwl-index .info_text h2{
+        margin-bottom: 8px !important;
+        font-size: 22px;
+     }
+
+     .infoOwl-index .info_text p{
+        margin-bottom: 15px !important;
+        line-height: 1.6;
+        font-size: 16px;
      }
 
      .paner-Page_{
