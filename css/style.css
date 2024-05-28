@@ -620,18 +620,10 @@
 .ourProductsMask_{
     position: relative;
     min-height: 300px;
-    
-}
-
-.ourProductsMask_ > img{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -2;
-    object-fit: cover;
-    object-position: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 2;
 }
 
 .ourProductsMask_::after{
