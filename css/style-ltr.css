@@ -5,6 +5,8 @@
 
  .infoOwl-index{
     flex-direction: row-reverse;
+    padding-inline-end: 10%;
+    padding-inline-start: 0;
  }
 
  .infoOwl-index .img_ .img_2 {
@@ -14,6 +16,18 @@
 .infoOwl-index .info_text{
     direction: ltr;
 }
+
+.box-service_ .Num_ {
+    left: 0;
+    right: unset;
+}
+
+.box-service_::after{
+    left: 0;
+    right: unset;
+    border-radius: 15px 0;
+}
+
 
 .form-control {
     text-align: left !important;

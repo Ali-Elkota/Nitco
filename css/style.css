@@ -190,10 +190,6 @@
      display: block
  }
 
- .owl-carousel {
-     direction: ltr
- }
-
  .dropdown-toggle::after {
      display: none
  }
@@ -1539,10 +1535,10 @@ textarea.form-control {
      }
 
      .infoOwl-index {
-        padding-inline-start: 0;
-        flex-direction: column-reverse;
+        padding-inline-start: 0 !important;
+        flex-direction: column-reverse !important;
         gap: 6px;
-
+        padding-inline-end: 0 !important;
      }
 
      .infoOwl-index .img_{
