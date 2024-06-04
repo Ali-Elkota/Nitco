@@ -907,11 +907,12 @@
 }
 
 
-/* .allBox_service > .box_service:nth-child(even) > .row{
-    flex-direction: row-reverse;
-} */
 
-/* .box_service{
+.allBox_News > .box_News:nth-child(even) > .row{
+    flex-direction: row-reverse;
+}
+
+.box_News{
     overflow: hidden;
     padding: 18px;
     background-color: #FFF;
@@ -920,21 +921,21 @@
     box-shadow: 0 0 10px 0 rgb(0 0 0 / 14%);
 }
 
-.box_service .img_{
+.box_News .img_{
     width: 100%;
     height: 230px;
     overflow: hidden;
     border-radius: 5px;
     position: relative;
 }
-.box_service .img_ img{
+.box_News .img_ img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.box_service .img_::after{
+.box_News .img_::after{
     content: "";
     position: absolute;
     top: 0;
@@ -945,15 +946,23 @@
     opacity: 0.5;
 }
 
-.box_service .info_{
+.box_News .info_{
     max-height: 102px;
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;  
     overflow: hidden;
-} */
+}
 
-
+.imgNewsDetails_{
+    width: 100%;
+    height: 380px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid #EEE;
+    margin-bottom: 12px;
+}
 
 
 .item_statistics {
@@ -1249,6 +1258,29 @@ textarea.form-control {
     transform: rotate(-14deg);
 }
 
+.boxNewFeatures{
+    background-color: #FFF;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    margin: 12px 0;
+    height: calc(100% - 24px);
+}
+
+.boxNewFeatures img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    object-position: center;
+}
+
+
+
 .imgLapSystem{
     padding: 40px 30px 0 40px;
     max-width: 360px;
@@ -1360,6 +1392,12 @@ textarea.form-control {
 }
 
 
+.social_media li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
  footer {
      background: var(--main);
      color: #FFF;
@@ -1435,6 +1473,10 @@ textarea.form-control {
 
  /*Extra small devices (portrait phones, less than 576px)*/
  @media (max-width: 575.98px) {
+
+    .imgPaner-Page{
+        width: 100%;
+    }
 
     /* .AllouterCircleProduct{
         height: 360px;
